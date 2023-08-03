@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for playing</title>
+</head>
+<body style="background-image: url('./bg.jpg'); background-size: cover;">
+    <div id="cont">
+        <img src="./lose.jpg" id="img1">
+        <button  id="btn">Play again</button>
+        
+        </h1>
+    </div>
+</body>
+<style>
+    #cond{
+        width: 300px;
+        height: 200px;
+        margin-left: 50%;
+    }
+    #img1{
+        margin-top: 250px;
+        margin-left: 35%;
+
+    }
+    #btn{
+        position: absolute;
+        margin-top: 700px;
+        margin-left: -290px;
+        width: 80px;
+        height: 40px;
+    }
+</style>
+<script>
+document.getElementById("btn").addEventListener('click',home);
+    function home(){
+        
+        window.location.href="index.html";
+    }
+</script>
+</html>
